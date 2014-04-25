@@ -1,0 +1,22 @@
+﻿Build started 2014-04-25 10:58:49.
+     1>Project "D:\Media\Documents\GitHub\TerrahIRC\luasqlite\luasqlite.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\media\documents\github\terrahirc\luasqlite\luasqlite.h(11): warning C4005: 'LUA_API' : macro redefinition
+                 d:\media\documents\github\terrahirc\luasqlite\luaconf.h(164) : see previous definition of 'LUA_API'
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt sqlite3.c
+         sqlite3.c
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1190,5): warning MSB8030: The linker switch "Minimum Required Version" requires "SubSystem" to be set.  Without "SubSystem", the "Minimum Required Version" would not be passed to linker and could prevent to the output binary from running on older Operating Systems.
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Media\Documents\GitHub\TerrahIRC\Release\luasqlite.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Media\Documents\GitHub\TerrahIRC\Release\luasqlite.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Media\Documents\GitHub\TerrahIRC\Release\luasqlite.lib" /MACHINE:X86 /SAFESEH /DLL Release\main.obj
+         Release\sqlite3.obj
+            Creating library D:\Media\Documents\GitHub\TerrahIRC\Release\luasqlite.lib and object D:\Media\Documents\GitHub\TerrahIRC\Release\luasqlite.exp
+         Generating code
+         Finished generating code
+         luasqlite.vcxproj -> D:\Media\Documents\GitHub\TerrahIRC\Release\luasqlite.dll
+     1>Done Building Project "D:\Media\Documents\GitHub\TerrahIRC\luasqlite\luasqlite.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.19

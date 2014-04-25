@@ -1,0 +1,34 @@
+﻿Build started 2014-04-25 10:58:45.
+     1>Project "D:\Media\Documents\GitHub\TerrahIRC\TerrahIRC\TerrahIRC.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt IniFile.cpp KitsuneSwagConsole.cpp KSCLuaLib.cpp KSCWinProcs.cpp Main.cpp MultiSocket.cpp TerrahConsole.cpp TerrahSocket.cpp
+         IniFile.cpp
+         KitsuneSwagConsole.cpp
+         KSCLuaLib.cpp
+         KSCWinProcs.cpp
+         Main.cpp
+         MultiSocket.cpp
+         TerrahConsole.cpp
+     1>TerrahConsole.cpp(213): warning C4101: 'n' : unreferenced local variable
+         TerrahSocket.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D _USING_V110_SDK71_ /l"0x0409" /nologo /fo"Release\Resource.res" Resource.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1190,5): warning MSB8030: The linker switch "Minimum Required Version" requires "SubSystem" to be set.  Without "SubSystem", the "Minimum Required Version" would not be passed to linker and could prevent to the output binary from running on older Operating Systems.
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Media\Documents\GitHub\TerrahIRC\Release\TerrahIRC.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Media\Documents\GitHub\TerrahIRC\Release\TerrahIRC.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Media\Documents\GitHub\TerrahIRC\Release\TerrahIRC.lib" /MACHINE:X86 /SAFESEH Release\Resource.res
+         Release\IniFile.obj
+         Release\KitsuneSwagConsole.obj
+         Release\KSCLuaLib.obj
+         Release\KSCWinProcs.obj
+         Release\Main.obj
+         Release\MultiSocket.obj
+         Release\TerrahConsole.obj
+         Release\TerrahSocket.obj
+         Generating code
+         Finished generating code
+         TerrahIRC.vcxproj -> D:\Media\Documents\GitHub\TerrahIRC\Release\TerrahIRC.exe
+     1>Done Building Project "D:\Media\Documents\GitHub\TerrahIRC\TerrahIRC\TerrahIRC.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.31

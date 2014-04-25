@@ -1,0 +1,28 @@
+﻿Build started 2014-04-25 10:58:54.
+     1>Project "D:\Media\Documents\GitHub\TerrahIRC\luafilemanager\luafilemanager.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FileManager.cpp main.cpp
+         FileManager.cpp
+         main.cpp
+     1>d:\media\documents\github\terrahirc\luafilemanager\luafilemanager.h(11): warning C4005: 'LUA_API' : macro redefinition
+                 d:\media\documents\github\terrahirc\luafilemanager\luaconf.h(164) : see previous definition of 'LUA_API'
+     1>main.cpp(88): warning C4244: 'argument' : conversion from 'time_t' to 'lua_Integer', possible loss of data
+     1>main.cpp(92): warning C4244: 'argument' : conversion from 'time_t' to 'lua_Integer', possible loss of data
+     1>main.cpp(96): warning C4244: 'argument' : conversion from 'time_t' to 'lua_Integer', possible loss of data
+     1>main.cpp(104): warning C4244: 'argument' : conversion from 'ULONGLONG' to 'lua_Integer', possible loss of data
+     1>main.cpp(202): warning C4244: 'initializing' : conversion from 'lua_Number' to 'int', possible loss of data
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt sha256.c
+         sha256.c
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Media\Documents\GitHub\TerrahIRC\Release\luafilemanager.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Media\Documents\GitHub\TerrahIRC\Release\luafilemanager.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Media\Documents\GitHub\TerrahIRC\Release\luafilemanager.lib" /MACHINE:X86 /SAFESEH /DLL Release\FileManager.obj
+         Release\main.obj
+         Release\sha256.obj
+            Creating library D:\Media\Documents\GitHub\TerrahIRC\Release\luafilemanager.lib and object D:\Media\Documents\GitHub\TerrahIRC\Release\luafilemanager.exp
+         Generating code
+         Finished generating code
+         luafilemanager.vcxproj -> D:\Media\Documents\GitHub\TerrahIRC\Release\luafilemanager.dll
+     1>Done Building Project "D:\Media\Documents\GitHub\TerrahIRC\luafilemanager\luafilemanager.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.38
